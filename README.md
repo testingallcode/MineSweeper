@@ -17,43 +17,7 @@ A command-line Sudoku game built in Java with clean OOP design, validation logic
 
 # Architecture
 
-MineSweeper/
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── sudoku/
-│   │           ├── SudokuGame.java
-│   │           ├── model/
-│   │           │   ├── Board.java
-│   │           │   └── Cell.java
-│   │           ├── service/
-│   │           │   ├── MoveService.java
-│   │           │   ├── Validator.java
-│   │           │   ├── HintService.java
-│   │           │   └── SudokuGenerator.java
-│   │           ├── parser/
-│   │           │   ├── Command.java
-│   │           │   └── CommandParser.java
-│   │           └── ui/
-│   │               └── Printer.java
-│   │
-│   └── test/
-│       └── java/
-│           └── sudoku/
-│               ├── model/
-│               │   └── BoardTest.java
-│               │
-│               ├── service/
-│               │   ├── MoveServiceTest.java
-│               │   ├── ValidatorTest.java
-│               │   ├── HintServiceTest.java
-│               │   └── SudokuGeneratorTest.java
-│               │
-│               ├── parser/
-│               │   └── CommandParserTest.java
-│               │
-│               └── integration/
-│                   └── GameFlowTest.java
+![Architecture](Architecture.png)
 
 
 ---
